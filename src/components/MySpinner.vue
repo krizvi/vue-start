@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Spinner"
+  name: "MySpinner"
 }
 </script>
 

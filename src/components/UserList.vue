@@ -14,7 +14,7 @@
   <div v-if="loading" class="container">
     <div class="row">
       <div class="col">
-        <Spinner/>
+        <MySpinner/>
       </div>
     </div>
   </div>
@@ -59,11 +59,11 @@
 
 <script>
 import axios from "axios";
-import Spinner from "@/components/Spinner";
+import MySpinner from "@/components/MySpinner";
 
 export default {
   name: "UserList",
-  components: {Spinner},
+  components: {MySpinner},
   data: function () {
     return {
       loading: false,

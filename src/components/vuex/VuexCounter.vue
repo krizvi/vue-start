@@ -2,7 +2,7 @@
   <div class="container mt-3">
     <div class="row">
       <div class="col">
-        <p class="h3 text-success">Counter</p>
+        <p class="h3 text-success">MyCounter</p>
         <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fuga impedit quae!
           Aspernatur cum,
           eveniet id iste minus provident quidem quo soluta? Amet blanditiis dicta enim, nostrum nulla quis sunt?</p>

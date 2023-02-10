@@ -14,7 +14,7 @@
   <div v-if="userState.loading" class="container">
     <div class="row">
       <div class="col">
-        <Spinner/>
+        <MySpinner/>
       </div>
     </div>
   </div>
@@ -58,12 +58,12 @@
 </template>
 
 <script>
-import Spinner from "@/components/Spinner";
+import MySpinner from "@/components/MySpinner";
 import {mapGetters} from "vuex";
 
 export default {
   name: "VuexUserList",
-  components: {Spinner},
+  components: {MySpinner},
   created: function () {
     this.$store.dispatch("usersModule/getUsers");
   },
