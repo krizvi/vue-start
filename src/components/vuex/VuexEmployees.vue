@@ -2,7 +2,7 @@
   <div class="container mt-3">
     <div class="row">
       <div class="col">
-        <p class="h3 text-success">Employees</p>
+        <p class="h3 text-success">MyEmployees</p>
         <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dolores, excepturi
           harum impedit maiores similique sint soluta vel? Asperiores consectetur dolores fuga fugit iste labore laborum
           quos unde voluptate.</p>

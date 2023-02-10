@@ -62,7 +62,7 @@ import axios from "axios";
 import MySpinner from "@/components/MySpinner";
 
 export default {
-  name: "UserList",
+  name: "MyUserList",
   components: {MySpinner},
   data: function () {
     return {

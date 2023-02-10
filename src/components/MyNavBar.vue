@@ -8,7 +8,7 @@
             <router-link class="nav-link" to="/counter">MyCounter</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/employees">Employees</router-link>
+            <router-link class="nav-link" to="/employees">MyEmployees</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/users">User List</router-link>
@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "NavBar"
+  name: "MyNavBar"
 }
 </script>
 

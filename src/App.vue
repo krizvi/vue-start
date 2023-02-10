@@ -1,5 +1,5 @@
 <template>
-  <NavBar/>
+  <MyNavBar/>
   <router-view/>
 </template>
 
@@ -7,9 +7,9 @@
 @import "styles.css";
 </style>
 <script>
-import NavBar from "@/components/NavBar";
+import MyNavBar from "@/components/MyNavBar.vue";
 
 export default {
-  components: {NavBar}
+  components: {MyNavBar}
 }
 </script>
